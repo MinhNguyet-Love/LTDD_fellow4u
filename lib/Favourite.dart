@@ -2,6 +2,67 @@
 import 'package:flutter/material.dart';
 import 'favourite_news.dart'; // Import your model class
 import 'favourite_news_service.dart';
+
+Widget _buildHeader() {
+    return Stack(
+      clipBehavior: Clip.none,
+      children: [
+        _buildBackgroundImage('assets/images/Mask Group.png', 200),
+        Positioned(
+          top: 20,
+          left: 16,
+          child: Text(
+            "My Trips",
+            style: TextStyle(
+              color: Colors.white,
+              fontSize: 28,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        Positioned(
+          top: 20,
+          right: 16,
+          child: _buildWeatherInfo(),
+        ),
+      ],
+    );
+  }
+
+  Widget _buildBackgroundImage(String imageUrl, double height) {
+    return Container(
+      width: double.infinity,
+      height: height,
+      decoration: BoxDecoration(
+        image: DecorationImage(
+          image: AssetImage(imageUrl),
+          fit: BoxFit.cover,
+        ),
+      ),
+    );
+  }
+
+
+  Widget _buildWeatherInfo() {
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.end,
+      children: [
+        Text(
+          "Da Nang",
+          style: TextStyle(color: Colors.white, fontSize: 16),
+        ),
+        SizedBox(height: 5),
+        Row(
+          children: [
+            Icon(Icons.cloud, color: Colors.white, size: 20),
+            SizedBox(width: 5),
+            Text("26°C", style: TextStyle(color: Colors.white, fontSize: 16)),
+          ],
+        ),
+      ],
+    );
+  }
+
 class FavouritePage extends StatefulWidget {
   @override
   _FavouritePageState createState() => _FavouritePageState();
