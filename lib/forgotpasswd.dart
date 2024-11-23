@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1_fellow4u_1/login.dart';
-import 'package:flutter_application_1_fellow4u_1/checkemail.dart';
+import 'package:flutter_application_1_fellow4u_1/chat/checkemail.dart';
 
 class ForgotPasswordPage extends StatelessWidget {
   @override

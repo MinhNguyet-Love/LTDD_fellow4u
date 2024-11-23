@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1_fellow4u_1/Favourite.dart';
-import 'package:flutter_application_1_fellow4u_1/chat_mess.dart';
-import 'package:flutter_application_1_fellow4u_1/mytrip.dart';
+import 'package:flutter_application_1_fellow4u_1/favourite/Favourite.dart';
+import 'package:flutter_application_1_fellow4u_1/chat/chat_mess.dart';
+import 'package:flutter_application_1_fellow4u_1/mytrips/mytrip.dart';
 import 'package:flutter_application_1_fellow4u_1/search.dart';
 
 

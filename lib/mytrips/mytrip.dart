@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1_fellow4u_1/home.dart';
-import 'package:flutter_application_1_fellow4u_1/next.dart';
-import 'search.dart';
-import 'chat_mess.dart';
-import 'Favourite.dart';
-import 'profi.dart';
-import 'home.dart';
+import 'package:flutter_application_1_fellow4u_1/mytrips/next.dart';
+import '../search.dart';
+import '../chat/chat_mess.dart';
+import '../favourite/Favourite.dart';
+import '../profi/profi.dart';
+import '../home.dart';
 Widget _buildHeader() {
     return Stack(
       clipBehavior: Clip.none,

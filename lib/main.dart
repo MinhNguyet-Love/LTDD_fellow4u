@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'next.dart';
+import 'mytrips/next.dart';
 
 void main() {
   runApp(MyApp());

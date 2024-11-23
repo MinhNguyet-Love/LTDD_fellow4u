@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1_fellow4u_1/next.dart';
+import 'package:flutter_application_1_fellow4u_1/mytrips/next.dart';
 import 'signup.dart';
 import 'forgotpasswd.dart';
 import 'home.dart';

@@ -4,7 +4,7 @@ import 'package:http/http.dart' as http;
 import 'favourite_news.dart'; // Ensure this is the correct import
 
 class TravelNewsService {
-  final String apiUrl = 'https://server-api-opqn.onrender.com/thongbao';
+  final String apiUrl = 'https://server-api-opqn.onrender.com/thongbao/api';
 
   Future<List<TravelNews1>> fetchTravelNews() async {
     final response = await http.get(Uri.parse(apiUrl));

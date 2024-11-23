@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1_fellow4u_1/home.dart';
-import 'search.dart';
-import 'Favourite.dart';
-import 'profi.dart';
-import 'mytrip.dart';
-import 'home.dart';
+import '../search.dart';
+import '../favourite/Favourite.dart';
+import '../profi/profi.dart';
+import '../mytrips/mytrip.dart';
+import '../home.dart';
 
 class NotificationPage extends StatefulWidget {
   @override

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1_fellow4u_1/tour_news.dart';
-import 'package:flutter_application_1_fellow4u_1/tour_news_service.dart';
-import 'package:flutter_application_1_fellow4u_1/travel_news.dart';
-import 'package:flutter_application_1_fellow4u_1/travel_news_service.dart';
+import 'package:flutter_application_1_fellow4u_1/tour/tour_news.dart';
+import 'package:flutter_application_1_fellow4u_1/tour/tour_news_service.dart';
+import 'package:flutter_application_1_fellow4u_1/travel/travel_news.dart';
+import 'package:flutter_application_1_fellow4u_1/travel/travel_news_service.dart';
 import 'search.dart';
-import 'chat_mess.dart';
-import 'Favourite.dart';
-import 'profi.dart';
-import 'mytrip.dart';
+import 'chat/chat_mess.dart';
+import 'favourite/Favourite.dart';
+import 'profi/profi.dart';
+import 'mytrips/mytrip.dart';
 
 
 class NextHome extends StatelessWidget {
